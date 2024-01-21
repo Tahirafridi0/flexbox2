@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h3{
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 20px;
+    text-align: center;
+}
+.flex-container{
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    background-color: rgb(234, 226, 226);
+    width: 50%;
+    height: 100vh;
+}
+.flex-container > div {
+
+    width: 100%;
+    height: 50px;
+    background-color: #ec13bd;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.icon{
+    background-color: #3f5633;
+    width: 50%;
+}
+
